@@ -20,10 +20,7 @@ namespace app12
             timer.Start();
 
         }
-
-
         Timer timer = new Timer();
-
         private void BakuTimer_Tick(object sender, EventArgs e)
         {
             timeLbl.Text = DateTime.Now.ToLongTimeString();
